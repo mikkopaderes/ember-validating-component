@@ -9,7 +9,6 @@ moduleForComponent('validating-component', 'Unit | Component | validating compon
 test('should not throw any error', function(assert) {
   assert.expect(1);
 
-  // Arrange
   this.subject({
     attrs: {
       name: 'Foo'
@@ -22,7 +21,7 @@ test('should not throw any error', function(assert) {
       }
     }
   });
-
+  
   assert.ok(true);
 });
 
