@@ -1,0 +1,1 @@
+export { default } from 'ember-validating-component/components/validating-component';

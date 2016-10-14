@@ -1,7 +1,7 @@
 {
   "name": "ember-validating-component",
-  "version": "0.0.0",
-  "description": "The default blueprint for ember-cli addons.",
+  "version": "0.0.1",
+  "description": "Argument validating component during test runs",
   "directories": {
     "doc": "doc",
     "test": "tests"
@@ -11,11 +11,11 @@
     "start": "ember server",
     "test": "ember try:testall"
   },
-  "repository": "",
+  "repository": "https://github.com/rmmmp/ember-validating-component",
   "engines": {
     "node": ">= 0.10.0"
   },
-  "author": "",
+  "author": "Mikko Paderes",
   "license": "MIT",
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.2",
@@ -42,7 +42,8 @@
     "ember-addon"
   ],
   "dependencies": {
-    "ember-cli-babel": "^5.1.6"
+    "ember-cli-babel": "^5.1.6",
+    "ember-get-config": "0.1.11"
   },
   "ember-addon": {
     "configPath": "tests/dummy/config"
