@@ -22,7 +22,7 @@ $ ember install ember-validating-components
 Then in your component.js:
 
 ```js
-import Component from 'ember-component';
+import Component from 'ember-validating-component/components/base-component';
 
 export default Component.extend({
   argValidations: {

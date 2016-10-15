@@ -4,7 +4,7 @@ import Component from 'ember-component';
 
 import config from 'ember-get-config';
 
-export default Component.reopen({
+export default Component.extend({
   didReceiveAttrs() {
     this._super(...arguments);
 
