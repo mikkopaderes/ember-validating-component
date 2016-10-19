@@ -6,7 +6,7 @@ required argument is undefined or its type is invalid.
 
 ## Compatibility
 
-Supports Ember CLI v2.4 LTS.
+Supports Ember CLI v2.8-LTS.
 
 I'm planning to support only the latest LTS versions of Ember. I won't be doing 
 tests for any versions other than that.
@@ -16,7 +16,7 @@ tests for any versions other than that.
 To install this addon using Ember CLI, use this command:
 
 ```bash
-$ ember install ember-validating-components
+ember install ember-validating-components
 ```
 
 Then in your component.js:
@@ -61,18 +61,19 @@ I'm open to PRs if anyone has a good idea on how to handle it.
 
 ## Installation
 
-* `git clone` this repository
+* `git clone <repository-url>` this repository
+* `cd ember-validating-component`
 * `npm install`
 * `bower install`
 
 ## Running
 
-* `ember server`
-* Visit your app at http://localhost:4200.
+* `ember serve`
+* Visit your app at [http://localhost:4200](http://localhost:4200).
 
 ## Running Tests
 
-* `npm test` (Runs `ember try:testall` to test your addon against multiple Ember versions)
+* `npm test` (Runs `ember try:each` to test your addon against multiple Ember versions)
 * `ember test`
 * `ember test --server`
 
